@@ -1,0 +1,20 @@
+/*tr :nth-child(odd){
+    color: brown;
+    background-color: brown;
+    
+}
+
+tr :nth-child(even){
+    background-color: blue;
+
+}
+
+td :nth-child(odd){
+    background-color: black;
+}
+*/
+
+table td:nth-child(odd),table th:nth-child(odd){
+    color: white;
+    background-color: black;
+}
